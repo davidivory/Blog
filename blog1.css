@@ -5,13 +5,15 @@
 
 h2 {
   font-size: 32px;
+  text-align: left;
+  color: black;
 }
 
 /* Remove margins and padding from the list */
 ul {
     margin: 0;
     padding: 0;
-    transform: rotate(180deg);
+   // transform: rotate(180deg);
    
 }
 
@@ -25,7 +27,7 @@ ul li {
     border-left: 6px solid #F38137;
     font-size: 18px;
     transition: 0.2s;
-    transform: rotate(-180deg);
+    //transform: rotate(-180deg);
 
     /* make the list items unselectable */
     -webkit-user-select: none;
@@ -54,7 +56,7 @@ ul li:hover {
 }
 
 .close:hover {
-    background-color: #f44336;
+    background-color: #51BFC4;
     color: white;
 }
 
@@ -88,8 +90,8 @@ input {
 /* Style the "Add" button */
 .addBtn {
     padding: 10px;
-    width: 15%;
-    background: #F38137;
+    width: 10%;
+    background: white;
     color: #555;
     float: left;
     text-align: center;
@@ -97,6 +99,9 @@ input {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 20px;
+    border-color: #F38137;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .addBtn:hover {
